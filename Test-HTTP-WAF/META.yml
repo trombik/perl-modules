@@ -1,0 +1,24 @@
+---
+name: Test-HTTP-WAF
+version: 0.02
+author:
+  - 'Tomoyuki Sakurai <cherry@trombik.org>'
+abstract: Test Web Application Firewall with Perl.
+license: bsd
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+requires:
+  Carp: 0
+  LWP::UserAgent: 0
+  Test::Base: 0
+  perl: 0
+provides:
+  Test::HTTP::WAF:
+    file: lib/Test/HTTP/WAF.pm
+    version: 0.02
+  Test::HTTP::WAF::Filter:
+    file: lib/Test/HTTP/WAF/Filter.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
